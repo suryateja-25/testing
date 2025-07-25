@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1fc2180f.css",
+    "main.js": "/static/js/main.08d54afa.js",
+    "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.bda0d7b7.chunk.js": "/static/js/769.bda0d7b7.chunk.js",
+    "static/media/nlp.jpeg": "/static/media/nlp.e40edb0568aa8e1cedf1.jpeg",
+    "static/media/bull_logo.jpeg": "/static/media/bull_logo.0adbc0a1e46ca93b4dcf.jpeg",
+    "static/media/stock-trading.jpeg": "/static/media/stock-trading.a79839c9b5e958d9d56d.jpeg",
+    "static/media/xgboost.png": "/static/media/xgboost.215fee93d4d8e8008031.png",
+    "static/media/supply-chain.jpg": "/static/media/supply-chain.16d81c2e3c9dfff24da5.jpg",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/ub logo.png": "/static/media/ub logo.7eb44cdab947f801e791.png",
+    "static/media/jpmc logo.png": "/static/media/jpmc logo.b01954f65f09e6e0f75f.png",
+    "static/media/cbit logo.png": "/static/media/cbit logo.4150b322a20ae0e4afd4.png",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/crime-analysis.jpeg": "/static/media/crime-analysis.bd415d86c996f1c382a6.jpeg",
+    "static/media/kafka.jpeg": "/static/media/kafka.2fc2fa1c67d880e21231.jpeg",
+    "static/media/aws.png": "/static/media/aws.7cfb1f5c177359a0bd66.png",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/sql.jpeg": "/static/media/sql.e8a8d4c437a95d86c887.jpeg",
+    "static/media/captcha-image.png": "/static/media/captcha-image.d4506392ed406ec875d4.png",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/go_prog.png": "/static/media/go_prog.739a9c4116f1ef01d9ad.png",
+    "static/media/cfg.jpeg": "/static/media/cfg.43dd0ced570e3ec7c82d.jpeg",
+    "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/index.html",
+    "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.1fc2180f.css.map": "/static/css/main.1fc2180f.css.map",
+    "main.08d54afa.js.map": "/static/js/main.08d54afa.js.map",
+    "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
+    "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
+    "769.bda0d7b7.chunk.js.map": "/static/js/769.bda0d7b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fc2180f.css",
+    "static/js/main.08d54afa.js"
+  ]
+}
