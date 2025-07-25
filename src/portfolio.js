@@ -119,25 +119,6 @@ const educationInfo = {
   ],
 };
 
-const techStack = {
-  viewSkillBars: true,
-  experience: [
-    {
-      Stack: "Backend C#",
-      progressPercentage: "90%",
-    },
-    {
-      Stack: "Frontend REACT NEXT.JS",
-      progressPercentage: "70%",
-    },
-    {
-      Stack: "Cloud Computing",
-      progressPercentage: "60%",
-    },
-  ],
-  displayCodersrank: true,
-};
-
 const workExperiences = {
   display: true,
   experience: [
@@ -376,7 +357,6 @@ export {
   splashScreen,
   skillsSection,
   educationInfo,
-  techStack,
   workExperiences,
   projects,
   personalProjects,
