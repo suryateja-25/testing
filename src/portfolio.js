@@ -32,12 +32,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saisahiti",
-  linkedin: "https://www.linkedin.com/in/sahiti-chittem/",
-  gmail: "schittem@buffalo.edu",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true, // Set true to display this section, defaults to false
+  github: "https://github.com/suryateja-25",
+  linkedin: "https://www.linkedin.com/in/suryateja25/",
+  gmail: "k.suryateja05@gmail.com",
+  display: true,
 };
 
 // Skills Section
@@ -224,7 +222,7 @@ const projects = {
       footerLink: [
         {
           name: "Visit Github Repo",
-          url: "https://github.com/saisahiti/houseprices-prediction",
+          url: "https://github.com/suryateja-25",
         },
         //  you can add extra buttons here.
       ],
@@ -248,7 +246,7 @@ const projects = {
       footerLink: [
         {
           name: "Visit Github Repo",
-          url: "https://github.com/saisahiti/crime-data-analysis",
+          url: "https://github.com/suryateja-25",
         },
         //  you can add extra buttons here.
       ],
@@ -272,7 +270,7 @@ const projects = {
       footerLink: [
         {
           name: "Visit Github Repo",
-          url: "https://github.com/saisahiti/captcha-recognition",
+          url: "https://github.com/suryateja-25",
         },
         //  you can add extra buttons here.
       ],
@@ -296,7 +294,7 @@ const projects = {
       footerLink: [
         {
           name: "Visit Github Repo",
-          url: "https://github.com/saisahiti/crime-data-analysis",
+          url: "https://github.com/suryateja-25",
         },
         //  you can add extra buttons here.
       ],
