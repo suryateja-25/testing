@@ -24,41 +24,75 @@
   font-size: 56px;
   font-weight: 400;
 }
+
 .subTitle {
   color: $subTitle;
 }
 
-/* Media Query */
+/* Dark Mode Styles */
+.dark-mode {
+  .skills-main-div {
+    background-color: #1f1f1f;
+    color: white;
+  }
+
+  .skills-heading {
+    color: white;
+  }
+
+  .subTitle {
+    color: #ccc;
+  }
+
+  .skills-text-div {
+    color: white;
+  }
+
+  .skills-text-subtitle {
+    color: #ddd;
+  }
+}
+
+/* Media Queries */
 @media (max-width: 1380px) {
   .skills-heading {
     font-size: 40px;
   }
 }
+
 @media (max-width: 768px) {
   .skills-heading {
     font-size: 30px;
     text-align: center;
   }
+
   .greeting-text-p {
     font-size: 16px;
     line-height: normal;
   }
+
   .skills-main-div {
     flex-direction: column;
   }
+
   .skills-text-div {
     margin-left: 0px;
     margin: 20px;
   }
+
   .skills-text {
     font-size: 16px;
   }
+
   .skills-text-subtitle {
     font-size: 16px;
     text-align: center;
   }
+
   .skills-image-div {
-    /* display: none; */
     order: 2;
+  }
+  .dark-mode .subTitle {
+    color: #f0f0f0; // or any light color you prefer
   }
 }

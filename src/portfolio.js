@@ -1,22 +1,14 @@
-/* Change this file to get your personal Portfolio */
-
-// To change portfolio colors globally go to the  _globalColor.scss file
-
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-
-// Splash Screen
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: true,
   animation: splashAnimation,
-  duration: 2000, // Set animation duration as per your animation
+  duration: 2000,
 };
 
-// Summary And Greeting Section
-
 const illustration = {
-  animated: true, // Set to false to use static SVG
+  animated: true,
 };
 
 const greeting = {
@@ -25,11 +17,9 @@ const greeting = {
   subTitle: emoji(
     "I am pursuing my Master's in Computer Science at the University of Nebraska at Omaha, passionate about building impactful software solutions and exploring cloud technologies."
   ),
-  resumeLink: "", // Set to empty to hide the button
-  displayGreeting: true, // Set false to hide this section, defaults to true
+  resumeLink: "",
+  displayGreeting: true,
 };
-
-// Social Media Links
 
 const socialMediaLinks = {
   github: "https://github.com/suryateja-25",
@@ -38,16 +28,11 @@ const socialMediaLinks = {
   display: true,
 };
 
-// Skills Section
-
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "Innovative software developer with three years of hands-on experience in application design, testing, data visualization tools, and data science technologies. Well-versed in Agile methodologies and coding languages, dedicated to developing creative solutions that align with business goals and requirements.",
+    "Cloud-focused full-stack developer with 3 years of experience designing and deploying scalable applications using React, .NET, AWS, and Snowflake. Adept at building efficient, secure solutions and leveraging modern data platforms to drive business insights.",
   skills: [],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -59,177 +44,149 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python",
     },
     {
-      skillName: "C",
-      fontAwesomeClassname: "fas fa-terminal",
-    },
-    {
-      skillName: "C++",
+      skillName: "C#",
       fontAwesomeClassname: "fas fa-code",
-    },
-    {
-      skillName: "R",
-      fontAwesomeClassname: "fas fa-server",
     },
     {
       skillName: "OOPs",
       fontAwesomeClassname: "far fa-user",
     },
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5",
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt",
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js",
     },
     {
-      skillName: "reactjs",
+      skillName: "ReactJS",
       fontAwesomeClassname: "fab fa-react",
     },
     {
-      skillName: "nodejs",
+      skillName: "Vue.js",
+      fontAwesomeClassname: "fab fa-vuejs",
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fas fa-code-branch",
+    },
+    {
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node",
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL",
       fontAwesomeClassname: "fas fa-database",
     },
     {
-      skillName: "aws",
+      skillName: "Snowflake",
+      fontAwesomeClassname: "fas fa-snowflake",
+    },
+    {
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws",
     },
+    {
+      skillName: "Terraform",
+      fontAwesomeClassname: "fas fa-server",
+    },
+    {
+      skillName: "Jenkins",
+      fontAwesomeClassname: "fas fa-cogs",
+    },
   ],
-  display: false, // Set false to hide this section, defaults to true
+  display: true,
 };
 
-// Education Section
-
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "University at Buffalo",
-      logo: require("./assets/images/ub logo.png"),
-      subHeader: "Master of Science in Computer Science and Information",
-      duration: "August 2022 - December 2023",
+      schoolName: "University of Nebraska at Omaha",
+      logo: require("./assets/images/uno.png"),
+      subHeader: "Master of Science in Management Information Systems (MIS)",
+      duration: "August 2022 - May 2024",
       desc: "Coursework",
       descBullets: [
-        "Statistical Data Mining I (Unsupervised and Supervised Learning), Python Programming",
-        "Probability Data Analysis Using R, DBMS, Cybersecurity Privacy and ethics, Machine Learning, Deep Learning",
+        "Coursework included DBMS, Cybersecurity, Privacy and Ethics, Machine Learning, and Deep Learning",
+        "Hands-on experience with AWS, React, Vue.js, and Django through academic and personal projects",
       ],
     },
     {
-      schoolName: "Chaitanya Bharathi Institute of Technology",
-      logo: require("./assets/images/cbit logo.png"),
-      subHeader: "Bachelor of Engineering in Computer Science",
-      duration: "August 2020 - September 2020",
+      schoolName: "Jawaharlal Nehru Technological University, Kakinada",
+      logo: require("./assets/images/Jntuk.png"),
+      subHeader:
+        "Bachelor of Technology in Electronics and Communication Engineering (ECE)",
+      duration: "August 2018 - May 2022",
     },
   ],
 };
 
-// Your top 3 proficient stacks/tech experience
-
 const techStack = {
-  viewSkillBars: false, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Backend", //Insert stack or technology you have experience in
-      progressPercentage: "90%", //Insert relative proficiency in percentage
+      Stack: "Backend C#",
+      progressPercentage: "90%",
     },
     {
-      Stack: "Frontend",
+      Stack: "Frontend REACT NEXT.JS",
       progressPercentage: "70%",
     },
     {
-      Stack: "Programming",
+      Stack: "Cloud Computing",
       progressPercentage: "60%",
     },
   ],
-  displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true,
 };
 
-// Work experience section
-
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Research Assistant",
-      company: "University at Buffalo",
-      companylogo: require("./assets/images/bull_logo.jpeg"),
-      date: "May 2023 – August 2023",
+      role: "Software Developer I",
+      company: "OneStaff Medical",
+      companylogo: require("./assets/images/osm.png"),
+      date: "July 2024 – Present",
       descBullets: [
-        "Analyzed TEDS data to determine Opioid Use Disorder (OUD) prevalence and identified key trends, informing healthcare policies for OUD crisis management",
-        "Innovated the use of Generative Adversarial Networks (GANs) to replicate real-world OUD data patterns, achieving a 70% accuracy in generating synthetic OUD data",
+        "Developing responsive front-end features using React, Next.js, and Material-UI to support staffing operations",
+        "Building secure REST APIs with ASP.NET Core and integrating AWS services like S3 and Cognito",
+        "Working with recruiters and internal teams to deliver features that improve efficiency",
+        "Managing CI/CD pipelines with Jenkins, version control with Bitbucket, and monitoring with Grafana",
+        "Following Agile practices and writing unit tests using GenFu, with API documentation in Swagger",
       ],
     },
     {
-      role: "Software Engineer II",
-      company: "JPMorgan Chase",
-      companylogo: require("./assets/images/jpmc logo.png"),
-      date: "August 2020 – July 2022",
+      role: "Software Development Intern",
+      company: "Physicians Mutual",
+      companylogo: require("./assets/images/pmic.png"),
+      date: "June 2023 – July 2024",
       descBullets: [
-        "Leveraged a Spring-Boot API for ADLDS and Sybase database interfacing, resulting in an 80% efficiency boost in transfers",
-        "Developed a Python script that accurately compared over 10,000 records across multiple databases with an impressive 95% accuracy rate.",
-        "Enhanced Migration application to facilitate seamless communication among various databases, handling over 100,000 records efficiently.",
-        "Created a ReactJS-Spring Boot dashboard that significantly improved team productivity by 40%, serving more than 50 team members.",
-        "Collaborated with a nonprofit website, boosting engagement by 25% for the Center for Historic Houses.",
-        "Embraced agile practices which improved overall product development productivity",
+        "Developed internal web applications using React, MUI, and .NET to streamline business workflows",
+        "Built and integrated RESTful APIs to support data-driven features across multiple departments",
+        "Implemented CI/CD pipelines using Jenkins to automate deployments and improve release efficiency",
+        "Worked with AWS services like S3 and CloudWatch for application deployment and monitoring",
+        "Collaborated with product managers and senior engineers to deliver scalable, production-ready features",
       ],
     },
     {
-      role: "Software Engineer Intern",
-      company: "JPMorgan Chase",
-      companylogo: require("./assets/images/jpmc logo.png"),
-      date: "Jan 2020 – July 2020",
+      role: "Student Worker & Grader",
+      company: "University of Nebraska at Omaha",
+      companylogo: require("./assets/images/uno.png"),
+      date: "August 2022 – April 2023",
       descBullets: [
-        "Gained expertise in Core Java, LDAP, and Spring Boot through dedicated professional development, enhancing technical skills",
-        "Proficiently implemented a Spring-Boot application, facilitating seamless cross-database interaction",
-        "Mastered software testing via unit and integration testing across multiple projects",
-        "Acquired proficiency in setting up and maintaining CI/CD pipelines using Jenkins, resulting in increased efficiency",
-        "Demonstrated an in-depth understanding of nuances like Splunk dashboard and Swagger configurations",
+        "Assisted faculty in grading assignments and exams for graduate-level MIS courses, ensuring accurate and timely feedback for students",
+        "Provided support with academic and administrative tasks including data entry, documentation, and organizing class materials",
       ],
     },
   ],
 };
-
-// Some big projects you have worked on
 
 const projects = {
   title: "Academic Projects",
   projects: [
     {
-      image: require("./assets/images/xgboost.png"),
-      projectName: "Prediction of House Prices using XGBoost",
-      //projectDesc: "Constructed and assessed various machine learning models, including XGBoost, Ridge, Lasso, and Random Forest, to predict property prices. After rigorous evaluation, the XGBoost model emerged as the top performer, achieving an impressive 90% accuracy rate. This success was achieved while working with a housing dataset comprising 1,460 rows and 81 diverse features related to housing. The utilization of XGBoost in this context not only demonstrates its superior predictive capabilities but also underscores its suitability for handling complex real estate datasets",
-      projectDesc: (
-        <ul>
-          <li>
-            <b>Skills/Technologies Used: </b> R, XGBoost,Random Forest, Jupyter
-            Notebook{" "}
-          </li>
-          <li>
-            <b>Brief Description: </b>Constructed and assessed various machine
-            learning models, including XGBoost, Ridge, Lasso, and Random Forest,
-            to predict property prices.
-          </li>
-        </ul>
-      ),
-      footerLink: [
-        {
-          name: "Visit Github Repo",
-          url: "https://github.com/suryateja-25",
-        },
-        //  you can add extra buttons here.
-      ],
-    },
-    {
-      image: require("./assets/images/crime-analysis.jpeg"),
-      projectName: "Crime Data Analysis in Baltimore",
+      image: require("./assets/images/cORA.png"),
+      projectDate: "Jan 2023 – May 2024",
+      projectName: "cORA25 - Commingled Remains Analytics",
       projectDesc: (
         <ul>
           <li>
@@ -237,70 +194,79 @@ const projects = {
             Folium
           </li>
           <li>
-            <b>Brief Description: </b> Analyzed and visualized crime data to
-            pinpoint hotspots and enhance community safety through data-driven
-            insights{" "}
+            <b>Brief Description:</b> Designed an interactive data analysis tool
+            to explore Baltimore crime datasets. Leveraged visualization
+            libraries like Seaborn and Folium to identify crime trends,
+            geographic hotspots, and provide actionable insights for improving
+            public safety and resource allocation.
           </li>
         </ul>
       ),
-      footerLink: [
-        {
-          name: "Visit Github Repo",
-          url: "https://github.com/suryateja-25",
-        },
-        //  you can add extra buttons here.
-      ],
     },
     {
-      image: require("./assets/images/captcha-image.png"),
-      projectName: "Captcha Recognition using Deep Learning",
+      image: require("./assets/images/PPBT.png"),
+      projectDate: "Aug 2023 – Dec 2023",
+      projectName: "PBBT Benchmarking Tool",
       projectDesc: (
         <ul>
           <li>
-            <b>Skills/Technologies Used:</b> Python, TensorFlow, OpenCV, Deep
-            Learning
+            <b>Skills/Technologies Used:</b> Laravel, Vue.js, PHP, Docker,
+            Cypress, CI/CD, Postman, Terraform
           </li>
           <li>
-            <b>Brief Description: </b> Enhanced web security with an advanced
-            multi-CNN system, effectively safeguarding sensitive user data and
-            countering evolving cybersecurity threats{" "}
+            <b>Brief Description:</b> Developed a web-based benchmarking
+            platform to evaluate school performance using IDEPS and POLTS data.
+            Implemented automated testing with Cypress, integrated APIs using
+            Postman, and deployed the application using Laravel Forge with CI/CD
+            pipelines.
           </li>
         </ul>
       ),
-      footerLink: [
-        {
-          name: "Visit Github Repo",
-          url: "https://github.com/suryateja-25",
-        },
-        //  you can add extra buttons here.
-      ],
     },
     {
-      image: require("./assets/images/sql.jpeg"),
-      projectName: "Wireless Inventory Management System",
+      image: require("./assets/images/cK.png"),
+      projectDate: "Jan 2023 – May 2023",
+      projectName: "CK Real Estate Platform",
       projectDesc: (
         <ul>
           <li>
-            <b>Skills/Technologies Used:</b> SQL, Database Management, Lucid
-            Chart
+            <b>Skills/Technologies Used:</b> Django, JavaScript, HTML, CSS,
+            Agile Methodologies, Test Automation
           </li>
           <li>
-            <b>Brief Description: </b> Designed an agile SQL-based inventory
-            management system with optimized database structures, ER diagrams,
-            and UML diagrams, enhancing operational efficiency and reliability
+            <b>Brief Description:</b> Developed a dynamic real estate web
+            platform using Django to help users search for rental and sale
+            properties based on preferences. Implemented user-friendly
+            interfaces, robust search functionalities, and followed Agile
+            development practices to ensure timely delivery and efficient
+            collaboration.
           </li>
         </ul>
       ),
-      footerLink: [
-        {
-          name: "Visit Github Repo",
-          url: "https://github.com/suryateja-25",
-        },
-        //  you can add extra buttons here.
-      ],
+    },
+    {
+      image: require("./assets/images/wordPress.png"),
+      projectDate: "Aug 2022 – Sep 2023",
+      projectName: "WordPress Website on AWS",
+      projectDesc: (
+        <ul>
+          <li>
+            <b>Skills/Technologies Used:</b> WordPress, AWS EC2, S3, Route 53,
+            MySQL, VPC, CloudWatch
+          </li>
+          <li>
+            <b>Brief Description:</b> Deployed a secure and scalable WordPress
+            website using AWS services. Hosted the frontend on an EC2 instance,
+            managed media and backups in S3, configured DNS with Route 53, and
+            set up a MySQL database in a private subnet. Ensured high
+            availability, cost efficiency, and real-time performance monitoring
+            with CloudWatch.
+          </li>
+        </ul>
+      ),
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
 };
 
 const personalProjects = {
@@ -340,55 +306,28 @@ const personalProjects = {
       ),
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false,
 };
 
-// Achievement Section
-// Include certificates, talks etc
-
 const achievementSection = {
-  title: emoji("Achievements, Certifications and Hackathons 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Hackathons and Some Cool Stuff that I have done !",
+  title: emoji("Certifications 🏆 "),
 
   achievementsCards: [
     {
-      title: "Code for Good Hackathon 2019",
+      title: "AWS Certified Solutions Architect",
       subtitle: (
         <div>
           <p>
-            Earning the 2nd prize in the 2019 Code for Good hackathon was a
-            rewarding achievement, underscoring the effective teamwork of our
-            six-member group in crafting a Java-Firebase Android app.{" "}
+            Successfully earned the AWS Certified Solutions Architect –
+            Associate credential, demonstrating expertise in designing scalable
+            and resilient cloud solutions on AWS.{" "}
             <b>
               <a
-                href="https://github.com/hyderabad19/team-6"
+                href="https://www.credly.com/badges/3413a341-d4c4-42ac-ab9f-80ce6f30003e/linked_in_profile"
                 target="_blank"
                 rel="noreferrer"
               >
-                GitHub Link
-              </a>
-            </b>
-          </p>
-        </div>
-      ),
-      image: require("./assets/images/cfg.jpeg"),
-    },
-    {
-      title: "AWS Certified Developer",
-      subtitle: (
-        <div>
-          <p>
-            Proud to have achieved te AWS Certified Developer Associate
-            certification, this validates my expertise in developing and
-            deploying applications on the Amazon web services cloud platform.{" "}
-            <b>
-              <a
-                href="https://udemy-certificate.s3.amazonaws.com/image/UC-00793609-0079-41f7-b9c2-78ba34b9ea8a.jpg"
-                target="_blank"
-                rel="noreferrer"
-              >
-                View my Certificate
+                View my Badge
               </a>
             </b>
           </p>
@@ -397,16 +336,17 @@ const achievementSection = {
       image: require("./assets/images/aws.png"),
     },
     {
-      title: "Apache Kafka V3 Certification",
+      title: "Snowflake SnowPro Core Certification",
       subtitle: (
         <div>
           <p>
-            Proud to have earned the Apache Kafka V3 certification, showcases my
-            proficiency in utilizing Kafka powerful streaming platform for
-            building real-time data pipelines and event-driven applications.{" "}
+            Successfully achieved the SnowPro Core Certification, validating
+            deep knowledge in Snowflake architecture, data loading, performance
+            optimization, and secure data sharing within the cloud data
+            platform.{" "}
             <b>
               <a
-                href="https://udemy-certificate.s3.amazonaws.com/image/UC-7b437d91-064b-402a-a0d8-d6fcc80075a3.jpg"
+                href="https://achieve.snowflake.com/b91d46ef-a163-4468-9a03-577534b11299#acc.lts0v4RQ"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -416,16 +356,16 @@ const achievementSection = {
           </p>
         </div>
       ),
-      image: require("./assets/images/kafka.jpeg"),
+      image: require("./assets/images/snowFlake.png"),
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Thanks for checking out my portfolio! I'm always open to new opportunities, collaborations, or just a good tech conversation. Feel free to connect with me on LinkedIn or drop me an email.",
+    "I'm always open to new opportunities, collaborations, or just a good tech conversation. Feel free to connect with me on LinkedIn or drop me an email.",
   number: "+1 402-504-2914",
   email_address: "k.suryateja05@gmail.com",
 };
