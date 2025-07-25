@@ -59,9 +59,9 @@ function Header() {
             <a href="#contact">Contact Me</a>
           </li>
           <li>
-            <a>
+            <div className="toggle-wrapper">
               <ToggleSwitch />
-            </a>
+            </div>
           </li>
         </ul>
       </header>
